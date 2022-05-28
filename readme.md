@@ -13,7 +13,7 @@ run the findtense.py file
 
 Output:
 
-[image](https://user-images.githubusercontent.com/50355854/170842005-2edf4391-eed2-4b72-80f5-83fea98a10fd.png)
+![image](https://user-images.githubusercontent.com/50355854/170842005-2edf4391-eed2-4b72-80f5-83fea98a10fd.png)
 
 
 
