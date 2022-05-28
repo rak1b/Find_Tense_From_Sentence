@@ -13,8 +13,8 @@ helping_verbs = {
     'Future': ['shall', 'will']
 }
 main_verb_pos = {
-    'Past': ['VBD', 'VBN', 'VB'],
-    'Present': ['VBG', 'VBP', 'VBZ']
+    'Past': ['VBD', 'VBN'],
+    'Present': ['VBG', 'VBP', 'VBZ','VB']
 }
 
 
@@ -31,6 +31,7 @@ def Find_Tense_Main_Verb(text):
     result = {'Not Found': 0, 'Future': 0, 'Present': 0, 'Past': 0}
 
     res = nltk.pos_tag(text)
+
     res = dict(res)
     for key, val in res.items():
         for tense in main_verb_pos:
