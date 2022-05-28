@@ -1,15 +1,10 @@
-pip install -U pip setuptools wheel
-pip install -U spacy
+pip install nltk
+then,
+Run the downloader.py file to install required packages,once the packages are installed
+run the findtense.py file
 
-python -m spacy download en_core_web_sm
+Output:![image](https://user-images.githubusercontent.com/50355854/170842005-2edf4391-eed2-4b72-80f5-83fea98a10fd.png)
 
-
-
-if error:
-    downlaod https://www.microsoft.com/en-in/download/confirmation.aspx?id=48145
-
-
-Number
 	
 Tag
 	
