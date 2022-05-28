@@ -1,14 +1,28 @@
+
+# Find_Tense_From_Sentence
+
+Find tense from sentence using nltk,to use this we have to install nltk.
+To install nltk,
+```
 pip install nltk
-then,
-Run the downloader.py file to install required packages,once the packages are installed
+
+```
+
+then Run the downloader.py file to install required packages,once the packages are installed
 run the findtense.py file
 
-Output:![image](https://user-images.githubusercontent.com/50355854/170842005-2edf4391-eed2-4b72-80f5-83fea98a10fd.png)
+Output:
+
+[image](https://user-images.githubusercontent.com/50355854/170842005-2edf4391-eed2-4b72-80f5-83fea98a10fd.png)
+
+
+
 
 	
 Tag
 	
 Description
+
 1. 	CC 	Coordinating conjunction
 2. 	CD 	Cardinal number
 3. 	DT 	Determiner
