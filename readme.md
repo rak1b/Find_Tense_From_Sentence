@@ -1,19 +1,28 @@
-pip install -U pip setuptools wheel
-pip install -U spacy
 
-python -m spacy download en_core_web_sm
+# Find_Tense_From_Sentence
+
+Find tense from sentence using nltk,to use this we have to install nltk.
+To install nltk,
+```
+pip install nltk
+
+```
+
+then Run the downloader.py file to install required packages,once the packages are installed
+run the findtense.py file
+
+Output:
+
+![image](https://user-images.githubusercontent.com/50355854/170842005-2edf4391-eed2-4b72-80f5-83fea98a10fd.png)
 
 
 
-if error:
-    downlaod https://www.microsoft.com/en-in/download/confirmation.aspx?id=48145
 
-
-Number
 	
 Tag
 	
 Description
+
 1. 	CC 	Coordinating conjunction
 2. 	CD 	Cardinal number
 3. 	DT 	Determiner
